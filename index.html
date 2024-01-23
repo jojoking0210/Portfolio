@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranav Tanaji Sarate-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(8, 0, 60);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 80px;
+        background-color: rgb(69, 178, 224);
+      }
+      nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0px 21px 10px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover{
+        color:rgb(138, 138, 217);
+        font-size: 1.1rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 21px 0;
+      }
+      section.firstsection div.leftsection {
+        width: 50%;
+        font-size: 2.5rem;
+      }
+      .rightsection {
+        width: 30%;
+      }
+      .rightsection img {
+        width: 130%;
+    margin-top: -28px;
+    margin-left: -172px;
+      }
+      #element{
+        color: rgb(149, 82, 211);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Pranav's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Project</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+            Hi , My name is <br><span style="color:aqua;">Pranav Tanaji Sarate</span>
+           <div>
+        and I am a </div> 
+
+        <span id="element"></span>
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer','&amp; a Competetive Programmer.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+        </div>
+        <div class="rightsection">
+          <img src="web development 2.png" alt="WEB_DEVELOPER" />
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
+</html>
